@@ -1,5 +1,5 @@
 ARG CENTOS_VERSION=latest
-FROM centos:${VERSION}
+FROM centos:${CENTOS_VERSION}
 
 LABEL maintainer="sushmitha.thula9@gmail.com"
 
